@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissor</title>
 </head>
 <body>
-    <script src="comp.js">
+    <script src="comp.js" defer>
     </script>
+    <div class="header">
+        <h1>ROCK&nbsp;&nbsp;&nbsp;PAPER&nbsp;&nbsp;&nbsp;SCISSORS</h1>
+    </div>
+    <div class="middle">
+        <div class="p1">Choose Your Weapon</div>
+        <div class="p2">First to score 5 points wins the game</div>
+        <div class="buttons">
+            <button class="rock" id="weapon">&#9994;</button>
+            <button class="paper" id="weapon">&#9995;</button>
+            <button class="scissor" id="weapon">&#9996;</button>
+        </div>
+        <div class="label">
+            <div class="comp">Computer</div>
+            <div class="you">You</div>
+        </div>
+        <div class="points">
+            <div class="compPoints">0</div>
+            <div class="youPoints">0</div>
+        </div>
+    </div>
+    <div class="end">
+        <p class="footer">Made by Aditya</p>
+    </div>
+    <div  class="hidDiv" hidden>
+        <dialog class="dialog">
+            <p class="dialogP">You Won</p>
+            <button class="newGame">New Game</button>
+        </dialog>
+    </div>
+   
 </body>
 </html>
